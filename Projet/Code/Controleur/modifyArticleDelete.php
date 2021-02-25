@@ -15,6 +15,6 @@ if (isset($_SESSION["pseudo"]) & isset($_POST["delete"])) :
     $reponseDelete = $delete->deleteWord($idArticle);
 
 
-    header('Location: ../Vue/wordVu.php');
+    header('Location: ../Vue/wordAdminView.php');
 
 endif;
