@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+    box-sizing: border-box;
+}
+/*
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #FFFBEB;
+}*/
+
+.form-control {
+    position: relative;
+    margin: 20px 0;
+    width: 300px;
+}
+
+.form-control input {
+    border: 0;
+    border-bottom: 2px solid #333;
+    padding: 15px 0;
+    display: block;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    width: 100%;
+    transition: 0.1s ease-in;
+    background-color: #FFFBEB;
+}
+
+.form-control input:focus, .form-control input:valid {
+    border-bottom-color: darksalmon;
+    outline: none;
+}
+
+.form-control input:focus+label span, .form-control input:valid+label span {
+    color: darksalmon;
+    transform: translateY(-30px);
+}
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+form {
+    text-align: center;
+}
+
+.indic{
+    text-align: center;
+}
+
+.container form:nth-of-type(2){
+   padding-top: 50%;
+}
+
+.button-one {
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.button-one {
+    padding: 5px 15px;
+    outline: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 9px #95a5a6;
+}
+
+.button-one:hover {
+    background-color: darksalmon;
+    border: none;
+    padding: 6px 16px;
+}
+
+.button-one:active {
+    background-color: white;
+    box-shadow: 0 5px #95a5a6;
+    transform: translateY(4px);
+}
+

@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    background-color: #FFFBEB;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 10%;
+    margin-left: 10%;
+}
+
+.startMenu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    align-items: center;
+}
+
+.startMenu a {
+    margin-right: 50px;
+    font-size: 150%;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#formArticle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.containerCard {
+    text-align: center;
+}
+
+.containerCard h1 {
+    margin: 20px 0px -90px;
+}
+
+.containerFrom {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #FFFBEB;
+}
+
+.ck-blurred , .ck-focused{
+    min-height: 300px!important;
+}
+
+#formArticle{
+    width: 80%;
+}
+.divForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
